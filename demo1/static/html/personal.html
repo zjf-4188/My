@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style/personal/personal.css">
+    <link rel="stylesheet" href="../common/reset2.css">
+    <link rel="stylesheet" href="../common/font2/iconfont.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="header">
+                <span>产品管理员</span>
+                <ul>
+                    <li id="yibiao">
+                        <span class="iconfont">&#xeb94;</span>
+                        <span>仪表板</span>
+                    </li>
+                    <li id="baogao">
+                        <span class="iconfont">&#xe647;</span>
+                        <span>报告
+                            <i class="iconfont icon">&#xe62c;</i>
+                        </span>
+                    </li>
+                    <li id="zhipin">
+                        <span class="iconfont">&#xf0179;</span>
+                        <span>制品</span>
+                    </li>
+                    <li id="zhanghao">
+                        <span class="iconfont">&#xe678;</span>
+                        <span>账号</span>
+                    </li>
+                    <li id="shezhi">
+                        <span class="iconfont">&#xe706;</span>
+                        <span>设置</span>
+                    </li>
+                </ul>
+                <div class="header-rigth">
+                    <span>管理员，退出</span>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="content">
+            <div class="top">
+                <div class="top-content">
+                    <h2>账户清单</h2>
+                    <h4>账号</h4>
+                    <select name="" id="">
+                        <option value="">选择账户</option>
+                        
+                    </select>
+                    <span class="iconfont">&#xe62c;</span>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="bottom-left">
+                    <h2>改变头像</h2>
+                    <img id="img" src="../images/yin.jpg" alt="">
+                    <div id="file-box">
+                        <input type="file" id="file-btn">
+                        上传新照片
+                    </div>
+                </div>
+                <div class="bottom-right">
+                    <h2>账号设定</h2>
+                    <div class="one">
+                        <div>
+                            <span>用户名</span>
+                            <span>账户的电子邮件</span>
+                        </div>
+                        <div>
+                            <input type="text" id="username">
+                            <input type="text" id="email">
+                        </div>
+                    </div>
+                    <div class="one">
+                        <div>
+                            <span>密码</span>
+                            <span>重新输入密码</span>
+                        </div>
+                        <div>
+                            <input type="password" id="password1">
+                            <input type="password" id="password2">
+                        </div>
+                    </div>
+                    <div class="one">
+                        <div>
+                            <span>电话</span>
+                        </div>
+                        <div>
+                            <input type="text" id="phone">
+                            <i id="update">更新您的个人资料</i>
+                        </div>
+                    </div>
+                    <div class="delete" id="delete">
+                        删除您的账户
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="../js/index.js/gonggong.js"></script>
+    <script src="../js/personal.js"></script>
+</body>
+
+</html>

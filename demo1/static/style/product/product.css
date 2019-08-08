@@ -1,0 +1,315 @@
+html,
+body,
+.index-container {
+  height: 100%;
+}
+
+.index-container nav {
+  width: 100%;
+  height: 100px;
+  background-color: #567086;
+  line-height: 100px;
+}
+
+.index-container nav .header {
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.index-container nav .header > span {
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: inherit;
+}
+
+.index-container nav .header ul {
+  display: flex;
+  line-height: 35px;
+}
+
+.index-container nav .header ul li {
+  display: flex;
+  flex-direction: column;
+  width: 115px;
+  height: 100px;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+
+.index-container nav .header ul li:hover span {
+  color: #ffc107;
+  cursor: pointer;
+}
+
+.index-container nav .header ul li:nth-of-type(3) {
+  background-color: #ffc107;
+}
+
+.index-container nav .header ul li span {
+  text-align: center;
+  font-size: 12px;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.index-container nav .header ul li span:hover .icon {
+  color: #ffc107;
+}
+
+.index-container nav .header ul li span .icon {
+  font-size: 12px;
+}
+
+.index-container nav .header ul li span i {
+  font-size: 17px !important;
+}
+
+.index-container nav .header ul li span i:hover {
+  color: #ffc107;
+}
+
+.index-container nav .header ul li .iconfont {
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.index-container nav .header .header-rigth span {
+  color: #ffffff;
+}
+
+.index-container nav .header .header-rigth span:hover {
+  color: #ffc107;
+  cursor: pointer;
+}
+
+.index-container section {
+  padding-top: 25px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+  background-color: #4e657a;
+}
+
+.index-container section > div {
+  margin: 0 auto;
+  display: flex;
+}
+
+.index-container section > div > .product_name {
+  width: 600px;
+  background-color: #435c70;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 20px;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.index-container section > div > .product_name > .content {
+  height: 350px;
+  width: 550px;
+  background-color: #567086;
+  overflow: hidden;
+}
+
+.index-container section > div > .product_name > .content > .nav_a {
+  height: 50px;
+  line-height: 50px;
+  background-color: #486177;
+}
+
+.index-container section > div > .product_name > .content > .nav_a > ul {
+  display: flex;
+  color: white;
+  padding: 0 40px;
+}
+
+.index-container section > div > .product_name > .content > .nav_a > ul > li {
+  flex: 1;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.index-container section > div > .product_name > .content > .nav_a > ul > .li {
+  text-align: center;
+}
+
+.index-container section > div > .product_name > .content > .nav_a > ul > .lii {
+  text-align: center;
+}
+
+.index-container section > div > .product_name > .content > .nav_v {
+  height: 50px;
+  line-height: 50px;
+}
+
+.index-container section > div > .product_name > .content > .nav_v > ul {
+  display: flex;
+  color: white;
+  border-bottom: 1px solid #435c70;
+}
+
+.index-container section > div > .product_name > .content > .nav_v > ul > .add {
+  flex: 0.2;
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.index-container section > div > .product_name > .content > .nav_v > ul > li {
+  flex: 1;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin: 0 10px;
+}
+
+.index-container section > div > .product_name > .content > .nav_v > ul > .li {
+  flex: 1;
+  text-align: center;
+}
+
+.index-container section > div > .product_name > .content > .nav_v > ul > .remove {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  width: 30px;
+  text-align: center;
+  margin-right: 15px;
+  margin-top: 10px;
+  background-color: #486177;
+  border-radius: 50px;
+}
+
+.index-container section > div > .product_name > .content > .nav_v > .icon_box > .add_block {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  width: 30px;
+  text-align: center;
+  margin-right: 15px;
+  margin-top: 10px;
+  border-radius: 50px;
+}
+
+.index-container section > div > .product_name > span {
+  display: inline-block;
+  width: 550px;
+  height: 46px;
+  line-height: 46px;
+  background-color: #ffc107;
+  text-align: center;
+  color: white;
+  font-weight: 900;
+  border: 2px solid #ffc107;
+}
+
+.index-container section > div > .product_name span:hover {
+  background: #486177;
+  color: #ffc107;
+  border: 2px solid #ffc107;
+}
+
+.index-container section > div > .product_name > #add_btn {
+  margin: 15px 0;
+}
+
+.index-container section > div > .product_name > #remove_btn {
+  margin-bottom: 10px;
+}
+
+.index-container section > div > .productname_sort {
+  height: 500px;
+  width: 300px;
+  background-color: #435c70;
+  padding: 30px 10px;
+  margin-right: 30px;
+}
+
+.index-container section > div > .productname_sort > h3 {
+  color: white;
+  font-weight: 800;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.index-container section > div > .productname_sort > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.index-container section > div > .productname_sort > div > .r_content {
+  height: 350px;
+  width: 250px;
+  background-color: #567086;
+}
+
+.index-container section > div > .productname_sort > div > .r_content > .nav_a {
+  height: 45px;
+  line-height: 45px;
+}
+
+.index-container section > div > .productname_sort > div > .r_content > .nav_a > ul {
+  display: flex;
+  color: white;
+  border-bottom: 1px solid #435c70;
+}
+
+.index-container section > div > .productname_sort > div > .r_content > .nav_a > ul > li {
+  margin-left: 5px;
+  text-align: center;
+}
+
+.index-container section > div > .productname_sort > div > .r_content > .nav_a > ul > .remove {
+  margin-left: 160px;
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  width: 30px;
+  text-align: center;
+  margin-right: 15px;
+  margin-top: 10px;
+  background-color: #486177;
+  border-radius: 50px;
+}
+
+.index-container section > div > .productname_sort > div > span {
+  display: inline-block;
+  width: 250px;
+  height: 50px;
+  line-height: 50px;
+  background-color: #ffc107;
+  text-align: center;
+  color: white;
+  font-weight: 900;
+  margin: 15px 0;
+  border: 2px solid #ffc107;
+}
+
+.index-container section > div > .productname_sort > div span:hover {
+  background: #486177;
+  color: #ffc107;
+  border: 2px solid #ffc107;
+}
+
+.index-container footer {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background-color: #567086;
+  color: white;
+  font-size: 10px;
+}
+
+.index-container footer > .span {
+  color: #1478e3;
+}
